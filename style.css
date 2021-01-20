@@ -1,0 +1,129 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      text-align: center;
+}
+
+body {
+      font-family: "Kumbh Sans", sans-serif;
+      overflow: hidden;
+}
+
+h1 {
+      padding-bottom: 0.83rem;
+}
+
+p {
+      font-size: 0.6rem;
+      letter-spacing: 1px;
+      color: hsl(227, 10%, 46%);
+      opacity: 0.8;
+}
+
+span {
+      font-size: 1.2rem;
+      font-weight: 800;
+}
+
+.hero {
+      height: 100vh;
+      background-color: hsl(185, 75%, 39%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.image__top {
+      position: absolute;
+      top: -20rem;
+      left: -2.66rem;
+      width: 56.875rem;
+      height: 56.875rem;
+      background-image: url(images/bg-pattern-top.svg);
+      background-size: 80%;
+      background-repeat: no-repeat;
+      opacity: 0.7;
+}
+
+.image__bottom {
+      position: absolute;
+      bottom: -23.312rem;
+      right: -8.06rem;
+      width: 54.5625rem;
+      height: 43.75rem;
+      background-image: url(images/bg-pattern-bottom.svg);
+      background-repeat: no-repeat;
+      background-size: 107%;
+      opacity: 0.7;
+}
+
+.card__wrapper {
+      width: 17.72rem;
+      position: relative;
+      border-radius: 0.625rem;
+      overflow: hidden;
+      box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+      z-index: 1;
+      background-color: #fff;
+}
+
+.card__img {
+      background: url(images/bg-pattern-card.svg);
+      height: 7rem;
+}
+
+.card__person {
+      background-image: url(images/image-victor.jpg);
+      background-size: cover;
+      width: 5rem;
+      height: 5rem;
+      border: 3px solid #fff;
+      border-radius: 50%;
+      position: absolute;
+      top: 4.16rem;
+      left: 6.22rem;
+}
+
+.card__title {
+      padding-top: 3.88rem;
+      padding-bottom: 1.38rem;
+}
+
+.line {
+      height: 2px;
+      background-color: #ececec;
+}
+
+.card__description {
+      display: flex;
+      justify-content: space-around;
+      padding-top: 1.38rem;
+      padding-bottom: 1.38rem;
+}
+
+.card__description h3 {
+      padding-top: 0.2rem;
+}
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+      .image__top {
+            top: -9.937rem;
+            left: -9.062rem;
+            width: 22.187rem;
+            height: 100%;
+            background-size: 100%;
+      }
+
+      .image__bottom {
+            bottom: 0;
+            right: -3.875rem;
+            width: 17.187rem;
+            height: 19.375rem;
+            background-size: 226%;
+            opacity: 0.7;
+      }
+}
